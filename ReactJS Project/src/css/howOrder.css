@@ -1,0 +1,57 @@
+.left{
+    background-color: #F7ECDA;
+    margin-right: 25px;
+}
+
+.left,.right{
+    font-size: 35px;
+    text-align: center;
+}
+
+.instruction{
+    list-style: none;
+    font-size: 30px;
+    padding-inline-start: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.instruction li{
+    margin-bottom: 15px;
+}
+
+.right{
+    background-color: #F7ECDA;
+}
+
+.size{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.size p{
+    width: 590px;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+table.iksweb{
+    border-collapse: collapse;
+    text-align: center;
+    cursor: default;
+}
+table.iksweb th{
+    color: #ffffff;
+    background-color: #000000;
+}
+table.iksweb td{
+    font-size: 25px;
+    color:#000000;
+}
+table.iksweb td,table.iksweb th{
+    padding: 20px 15px;
+    line-height: 13px;
+    vertical-align: middle;
+    border: 2px solid #000000;
+}

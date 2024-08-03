@@ -1,0 +1,25 @@
+.brandFirst{
+    width: 100vw;
+    height: 570px;
+    box-shadow: 0 0 0 700px rgba(0, 0, 0, .4) inset;
+    background-image: url('/public/img/brand_first.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.brandFourth{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.brandFourth p{
+    width: 511px;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+.advantages img{
+    margin-right: 25px;
+}

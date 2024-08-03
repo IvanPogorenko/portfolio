@@ -1,0 +1,96 @@
+.cartHeadContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.cartContainer{
+    width: 1200px;
+    background-color: antiquewhite;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.CartComponents{
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-component{
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cart-component:nth-last-child(){
+    margin-bottom: 40px;
+}
+
+.imgContainer{
+    width: 200px;
+    margin-right: 50px;
+}
+
+.ItemInfo{
+    width: 250px;
+}
+
+.HeaderInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.CountUpdate{
+    width: 130px;
+    font-size: 0;
+}
+
+.ItemCount{
+    width: 40px;
+    height: 30px;
+    border: 1px solid black;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+}
+
+#BtnMinus, #BtnPlus{
+    width: 40px;
+    height: 34px;
+    border: 1px solid black;
+}
+
+#BtnMinus{
+    border-right: none;
+}
+
+#BtnPlus{
+    border-left: none;
+}
+
+.cartReview{
+    width: 300px;
+    padding: 30px;
+}
+
+.cartReview h{
+    font-size: 22px;
+}
+
+.Line{
+    margin-top: 100px;
+    border: 1px solid black;
+}
+
+.MakeOrder{
+    background-color: #727F90;
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}

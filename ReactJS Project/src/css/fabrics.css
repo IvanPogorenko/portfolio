@@ -1,0 +1,150 @@
+.pictureBlock{
+    background-image: url('/public/img/fabrics_first.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 0 700px rgba(0, 0, 0, .4) inset;
+    width: 100vw;
+    height: 700px;
+}
+
+.fabrics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fabrics p{
+    width: 790px;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.colors{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.mint, .graphit, .darkBlue, .white, .blue{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 266px;
+    height: 663px;
+    flex: 180px;
+    margin-right: 10px;
+    position: relative;
+    box-shadow: 0 0 0 700px rgba(0, 0, 0, .4) inset;
+}
+
+.mint{
+    background-image: url('/public/img/mint.png');
+}
+
+.mint:hover{
+    box-shadow: 0 0 0 0px;
+}
+
+.mint:hover .color{
+    font-size: 0;
+}
+
+.graphit:hover{
+    box-shadow: 0 0 0 0px;
+}
+
+.graphit:hover .color{
+    font-size: 0;
+}
+
+.darkBlue:hover{
+    box-shadow: 0 0 0 0px;
+}
+
+.darkBlue:hover .color{
+    font-size: 0;
+}
+
+.white:hover{
+    box-shadow: 0 0 0 0px;
+}
+
+.white:hover .color{
+    font-size: 0;
+}
+
+.blue:hover{
+    box-shadow: 0 0 0 0px;
+}
+
+.blue:hover .color{
+    font-size: 0;
+}
+
+.graphit{
+    background-image: url('/public/img/graphit.png');
+}
+
+.darkBlue{
+    background-image: url('/public/img/darkBlue.png');
+}
+
+.white{
+    background-image: url('/public/img/white.png');
+}
+
+.blue{
+    background-image: url('/public/img/blue.png');
+}
+
+.color{
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    bottom: 0;
+    right: 5%;
+    transform: rotate(90deg);
+    transform-origin: top right;
+    z-index: 1000;
+}
+
+.fabricComposition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.fabricComposition h{
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.composition{
+    list-style: none;
+    padding-inline-start: 0;
+    margin-right: 40px;
+    margin-top: 190px;
+    font-size: 30px;
+}
+
+.fabricCare{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.fabricCare h{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.fabricCare p{
+    font-size: 30px;
+    line-height: 1.5;
+}
