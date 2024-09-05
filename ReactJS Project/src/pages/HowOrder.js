@@ -1,96 +1,106 @@
 import '../css/howOrder.css'
 
 function HowOrder() {
-    return(
+    return (
         <>
-            <div className="inputLine">
-                <h className='headForLine'>Как заказать</h>
+            <div className="input-line">
+                <h className='main-title'>Как заказать</h>
             </div>
-            <div className='wrapper'>
-                <div className='left'>
-                    <h>Заказ по СПБ и ЛО<br></br>(до 35км. от КАД)</h>
-                    <ul className='instruction'>
-                        <li>Оставляете заявку на заказ</li>
-                        <li>Связываемся с Вами</li>
-                        <li>Уточняем все необходимые<br></br>детали</li>
-                        <li>Орентируем по актуальным<br></br>срокам производства</li>
-                        <li>Процесс пошива</li>
-                        <li>Отправка фото готовой работы</li>
-                        <li>Согласовывание доставки</li>
-                        <li>Примерка (15 мин.)</li>
-                        <li>Оплата (карта/наличные)</li>
-                    </ul>
+            <section className="instructions">
+                <div className="container instructions__container">
+                    <div className="instructions__left-instruction instructions__instruction">
+                        <h className='small-title'>Заказ по СПБ и ЛО<br></br>(до 35км. от КАД)</h>
+                        <ul className='list'>
+                            <li className='list__item text'>Оставляете заявку на заказ</li>
+                            <li className='list__item text'>Связываемся с Вами</li>
+                            <li className='list__item text'>Уточняем все необходимые<br></br>детали</li>
+                            <li className='list__item text'>Орентируем по актуальным<br></br>срокам производства</li>
+                            <li className='list__item text'>Процесс пошива</li>
+                            <li className='list__item text'>Отправка фото готовой работы</li>
+                            <li className='list__item text'>Согласовывание доставки</li>
+                            <li className='list__item text'>Примерка (15 мин.)</li>
+                            <li className='list__item text'>Оплата (карта/наличные)</li>
+                        </ul>
+                    </div>
+                    <div className="instructions__right-instruction instructions__instruction">
+                        <h className='small-title'>Заказ по РФ</h>
+                        <ul className='list'>
+                            <li className='list__item text'>Оставляете заявку на заказ</li>
+                            <li className='list__item text'>Связываемся с Вами</li>
+                            <li className='list__item text'>Уточняем все необходимые<br></br>детали</li>
+                            <li className='list__item text'>Орентируем по актуальным<br></br>срокам производства</li>
+                            <li className='list__item text'>Процесс пошива</li>
+                            <li className='list__item text'>Согласовывание доставки<br></br>(СДЕК или др.
+                                службы<br></br>доставки)
+                            </li>
+                            <li className='list__item text'>Отправка фото накладной</li>
+                            <li className='list__item text'>Примерка (15 мин.)</li>
+                            <li className='list__item text'>Оплата (карта/наличные)</li>
+                        </ul>
+                    </div>
                 </div>
-                <div className='right'>
-                    <h>Заказ по РФ</h>
-                    <ul className='instruction'>
-                        <li>Оставляете заявку на заказ</li>
-                        <li>Связываемся с Вами</li>
-                        <li>Уточняем все необходимые<br></br>детали</li>
-                        <li>Орентируем по актуальным<br></br>срокам производства</li>
-                        <li>Процесс пошива</li>
-                        <li>Согласовывание доставки<br></br>(СДЕК или др. службы<br></br>доставки)</li>
-                        <li>Отправка фото накладной</li>
-                        <li>Примерка (15 мин.)</li>
-                        <li>Оплата (карта/наличные)</li>
-                    </ul>
+            </section>
+            <div className="input-line">
+                <h className='main-title'>Выбор размера</h>
+            </div>
+            <section className='size'>
+                <div className="size__container">
+                    <div className="size__text text">Для того, чтобы определиться с нужным размером просим Вас ознакомиться с нашей
+                        размерной таблицей. Если в таблице нужного размера нет – при оформлении заказа просим указать
+                        Ваши параметры (обхват груди, талии и бедер + рост).
+                    </div>
+                    <div className="size__text text">Любое изделие MOONPIE можно заказать в понравившемся цвете из предложенной палитры цветов.
+                    </div>
+                    <table className="size__table">
+                        <tbody>
+                            <tr>
+                                <td className="table__column">Размер</td>
+                                <td className="table__column">42</td>
+                                <td className="table__column">44</td>
+                                <td className="table__column">46</td>
+                                <td className="table__column">48</td>
+                                <td className="table__column">50</td>
+                                <td className="table__column">52</td>
+                                <td className="table__column">54</td>
+                                <td className="table__column">56</td>
+                            </tr>
+                            <tr>
+                                <td className="table__column">Обхват груди</td>
+                                <td className="table__column">84</td>
+                                <td className="table__column">88</td>
+                                <td className="table__column">92</td>
+                                <td className="table__column">96</td>
+                                <td className="table__column">100</td>
+                                <td className="table__column">104</td>
+                                <td className="table__column">108</td>
+                                <td className="table__column">112</td>
+                            </tr>
+                            <tr>
+                                <td className="table__column">Обхват талии</td>
+                                <td className="table__column">64</td>
+                                <td className="table__column">68</td>
+                                <td className="table__column">72</td>
+                                <td className="table__column">76</td>
+                                <td className="table__column">80</td>
+                                <td className="table__column">84</td>
+                                <td className="table__column">89</td>
+                                <td className="table__column">94</td>
+                            </tr>
+                            <tr>
+                                <td className="table__column">Обхват бедер</td>
+                                <td className="table__column">92</td>
+                                <td className="table__column">96</td>
+                                <td className="table__column">100</td>
+                                <td className="table__column">104</td>
+                                <td className="table__column">108</td>
+                                <td className="table__column">112</td>
+                                <td className="table__column">116</td>
+                                <td className="table__column">120</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-            </div>
-            <div className="inputLine">
-                <h className='headForLine'>Выбор размера</h>
-            </div>
-            <div className='size'>
-                <p>Для того, чтобы определиться с нужным размером просим Вас ознакомиться с нашей размерной таблицей. Если в таблице нужного размера нет – при оформлении заказа просим указать Ваши параметры (обхват груди, талии и бедер + рост).</p>
-                <p>Любое изделие MOONPIE можно заказать в понравившемся цвете из предложенной палитры цветов.</p>
-                <table class="iksweb">
-                    <tbody>
-                        <tr>
-                            <td>Размер</td>
-                            <td>42</td>
-                            <td>44</td>
-                            <td>46</td>
-                            <td>48</td>
-                            <td>50</td>
-                            <td>52</td>
-                            <td>54</td>
-                            <td>56</td>
-                        </tr>
-                        <tr>
-                            <td>Обхват груди</td>
-                            <td>84</td>
-                            <td>88</td>
-                            <td>92</td>
-                            <td>96</td>
-                            <td>100</td>
-                            <td>104</td>
-                            <td>108</td>
-                            <td>112</td>
-                        </tr>
-                        <tr>
-                            <td>Обхват талии</td>
-                            <td>64</td>
-                            <td>68</td>
-                            <td>72</td>
-                            <td>76</td>
-                            <td>80</td>
-                            <td>84</td>
-                            <td>89</td>
-                            <td>94</td>
-                        </tr>
-                        <tr>
-                            <td>Обхват бедер</td>
-                            <td>92</td>
-                            <td>96</td>
-                            <td>100</td>
-                            <td>104</td>
-                            <td>108</td>
-                            <td>112</td>
-                            <td>116</td>
-                            <td>120</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            </section>
         </>
     );
 }

@@ -5,46 +5,64 @@ import GoToCatalog from '../components/GoToCatalog';
 function Fabrics() {
     return(
         <>
-            <div className="pictureBlock"></div>
-            <div className="inputLine">
-                <h className='headForLine'>О тканях</h>
+            <section className="fabrrics-first-block"></section>
+            <div className="input-line">
+                <h className='main-title'>О тканях</h>
             </div>
-            <div className='fabrics'>
-                <p>Любое изделие MOONPIE можно заказать в понравившемся цвете из предложенной палитры. Наша ткань достаточно износостойкая, плотная, но в ней не жарко. Она держит форму, подчеркивая фигуру. Приятная к телу. Эластичная, не сковывает движения. Практически не мнется.</p>
-                <div className='colors'>
-                    <div className='mint'>
-                        <div className='color'>Мята</div>
-                    </div>
-                    <div className='graphit'>
-                        <div className='color'>Графит</div>
-                    </div>
-                    <div className='darkBlue'>
-                        <div className='color'>Темно-синий</div>
-                    </div>
-                    <div className='white'>
-                        <div className='color'>Белый</div>
-                    </div>
-                    <div className='blue'>
-                        <div className='color'>Голубой</div>
+            <section className="fabrics">
+                <div className="container fabrics__container">
+                    <p className="text fabrics__text">Любое изделие MOONPIE можно заказать в понравившемся цвете из предложенной палитры. Наша ткань достаточно износостойкая, плотная, но в ней не жарко.
+                        Она держит форму, подчеркивая фигуру.
+                        Приятная к телу.
+                        Эластичная, не сковывает движения. Практически не мнется.</p>
+                    <div className="fabrics__cards">
+                        <div className='fabrics__card mint'>
+                            <div className='fabrics__color-name'>Мята</div>
+                        </div>
+                        <div className='fabrics__card graphite'>
+                            <div className='fabrics__color-name'>Графит</div>
+                        </div>
+                        <div className='fabrics__card dark-blue'>
+                            <div className='fabrics__color-name'>Темно-синий</div>
+                        </div>
+                        <div className='fabrics__card white'>
+                            <div className='fabrics__color-name'>Белый</div>
+                        </div>
+                        <div className='fabrics__card blue'>
+                            <div className='fabrics__color-name'>Голубой</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className='fabricComposition'>
-                <h>Состав ткани</h>
-                <div className='wrapper'>
-                    <ul className='composition'>
-                        <li>72% полиэстер</li>
-                        <li>22% вискоза</li>
-                        <li> 6% спандекс</li>
-                        <li>Плотность ткани: 300г</li>
-                    </ul>
-                    <img src='/img/comp.png' alt='composition'></img>
+            </section>
+            <section className="about-fabrics">
+                <div className="container about-fabrics__container">
+                    <div className="about-fabrics__info-block">
+                        <h className="small-title">Состав ткани</h>
+                        <div className="about-fabrics__fabrics-composition">
+                            <div className="fabrics-composition__info">
+                                <ul className='list'>
+                                    <li className="list__item text">72% полиэстер</li>
+                                    <li className="list__item text">22% вискоза</li>
+                                    <li className="list__item text">6% спандекс</li>
+                                    <li className="list__item text">Плотность ткани: 300г</li>
+                                </ul>
+                            </div>
+                            <div className="fabrics-composition__image">
+                                <img src="/img/comp.png" alt="composition"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="about-fabrics__info-block">
+                        <h className="small-title">Уход за тканью</h>
+                        <ul className='list'>
+                            <li className="list__item text">Максимальная температура стирки 40 °C</li>
+                            <li className="list__item text">Гладить при температуре не выше 150 °C</li>
+                            <li className="list__item text">Не отбеливать ткань</li>
+                            <li className="list__item text">Стирать с вещами в одной цветовой гамме</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div className='fabricCare'>
-                <h>Уход за тканью</h>
-                <p>Максимальная температура стирки 40 °C<br></br>Гладить при температуре не выше 150 °C<br></br>Не отбеливать ткань<br></br>Стирать с вещами в одной цветовой гамме</p>
-            </div>
+            </section>
             <InputBlock></InputBlock>
             <GoToCatalog></GoToCatalog>
         </>

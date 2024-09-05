@@ -1,35 +1,51 @@
-.pictureBlock{
+.fabrrics-first-block{
     background-image: url('/public/img/fabrics_first.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     box-shadow: 0 0 0 700px rgba(0, 0, 0, .4) inset;
-    width: 100vw;
-    height: 700px;
+    width: 100%;
+    height: 600px;
 }
 
-.fabrics{
+.fabrics__container{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.fabrics p{
-    width: 790px;
-    font-size: 30px;
-    margin-top: 0;
-    margin-bottom: 50px;
+.fabrics__text{
+    max-width: 790px;
 }
 
-.colors{
+.fabrics__cards{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-bottom: 80px;
+    justify-content: space-between;
+    margin-top: 100px;
 }
 
-.mint, .graphit, .darkBlue, .white, .blue{
+/*.fabrics{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.fabrics p{*/
+/*    width: 790px;*/
+/*    font-size: 30px;*/
+/*    margin-top: 0;*/
+/*    margin-bottom: 50px;*/
+/*}*/
+
+/*.colors{*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    align-items: center;*/
+/*    flex-wrap: wrap;*/
+/*    margin-bottom: 80px;*/
+/*}*/
+
+.fabrics__card{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -49,31 +65,31 @@
     box-shadow: 0 0 0 0px;
 }
 
-.mint:hover .color{
+.mint:hover .fabrics__color-name{
     font-size: 0;
 }
 
-.graphit:hover{
+.graphite:hover{
     box-shadow: 0 0 0 0px;
 }
 
-.graphit:hover .color{
+.graphite:hover .fabrics__color-name{
     font-size: 0;
 }
 
-.darkBlue:hover{
+.dark-blue:hover{
     box-shadow: 0 0 0 0px;
 }
 
-.darkBlue:hover .color{
+.dark-blue:hover .fabrics__color-name{
     font-size: 0;
 }
 
 .white:hover{
-    box-shadow: 0 0 0 0px;
+    box-shadow: 0 0 0 0;
 }
 
-.white:hover .color{
+.white:hover .fabrics__color-name{
     font-size: 0;
 }
 
@@ -81,15 +97,15 @@
     box-shadow: 0 0 0 0px;
 }
 
-.blue:hover .color{
+.blue:hover .fabrics__color-name{
     font-size: 0;
 }
 
-.graphit{
+.graphite{
     background-image: url('/public/img/graphit.png');
 }
 
-.darkBlue{
+.dark-blue{
     background-image: url('/public/img/darkBlue.png');
 }
 
@@ -101,7 +117,7 @@
     background-image: url('/public/img/blue.png');
 }
 
-.color{
+.fabrics__color-name{
     position: absolute;
     font-size: 30px;
     color: white;
@@ -112,39 +128,62 @@
     z-index: 1000;
 }
 
-.fabricComposition{
+.about-fabrics__container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 80px;
 }
 
-.fabricComposition h{
-    font-size: 35px;
-    margin-bottom: 50px;
-}
-
-.composition{
-    list-style: none;
-    padding-inline-start: 0;
-    margin-right: 40px;
-    margin-top: 190px;
-    font-size: 30px;
-}
-
-.fabricCare{
+.about-fabrics__info-block{
+    margin-top: 130px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 80px;
 }
 
-.fabricCare h{
-    font-size: 35px;
-    margin-bottom: 20px;
+.about-fabrics__fabrics-composition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.fabricCare p{
-    font-size: 30px;
-    line-height: 1.5;
+.fabrics-composition__info{
+    margin-right: 113px;
 }
+
+/*.fabricComposition{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    margin-bottom: 80px;*/
+/*}*/
+
+/*.fabricComposition h{*/
+/*    font-size: 35px;*/
+/*    margin-bottom: 50px;*/
+/*}*/
+
+/*.composition{*/
+/*    list-style: none;*/
+/*    padding-inline-start: 0;*/
+/*    margin-right: 40px;*/
+/*    margin-top: 190px;*/
+/*    font-size: 30px;*/
+/*}*/
+
+/*.fabricCare{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    margin-bottom: 80px;*/
+/*}*/
+
+/*.fabricCare h{*/
+/*    font-size: 35px;*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*.fabricCare p{*/
+/*    font-size: 30px;*/
+/*    line-height: 1.5;*/
+/*}*/

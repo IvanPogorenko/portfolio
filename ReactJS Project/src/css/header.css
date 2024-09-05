@@ -1,47 +1,49 @@
-header img {
-  margin-top: 20px;
-}
-  
 header{
   width: 100%;
-  height: 100px;
   background-color: #727F90;
+}
+
+.header__container{
+  padding: 20px 0;
   display: flex;
-  flex-direction: row;
   position: relative;
   align-items: center;
+  justify-content: space-between;
 }
 
-header ul{
-  list-style-type: none;
-  display: inline;
-  position: absolute;
-  right: 0;
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
-header ul li{
-  display: inline-block;
-  margin-right: 80px;
-  font-size: 20px;
-}
-
-.nav_link{
-  text-decoration: none;
-  color: white;
-  cursor: pointer;
-  display: block;
+.menu{
   list-style: none;
-  display: inline-block;
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.menu__item{
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.menu__item_margin{
+  margin-left: 80px;
 }
 
 .submenu{
   position: absolute;
+  list-style: none;
   left: 50%;
   top: 100%;
   width: 140px;
-  padding: 10px 0 10px;
+  padding: 10px;
   margin-top: 5px;
+  border-radius: 10px;
   background: white;
   box-shadow: 0 0 30px rgba(0,0,0,.2);
   visibility: hidden;
@@ -55,6 +57,7 @@ header ul li{
 
 .about, .catalog{
   position: relative;
+  color: white;
 }
 
 .about:hover .submenu{
@@ -71,7 +74,8 @@ header ul li{
 
 .bottom{
   color: black;
-  margin-left: 79px;
+  margin-bottom: 10px;
+  font-weight: 500;
 }
 
 .bottom::after{

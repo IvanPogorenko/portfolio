@@ -1,57 +1,69 @@
-.left{
+/*.left{*/
+/*    background-color: #F7ECDA;*/
+/*    margin-right: 25px;*/
+/*}*/
+
+/*.left,.right{*/
+/*    font-size: 35px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.instruction{*/
+/*    list-style: none;*/
+/*    font-size: 30px;*/
+/*    padding-inline-start: 0;*/
+/*    margin-left: 10px;*/
+/*    margin-right: 10px;*/
+/*}*/
+
+/*.instruction li{*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
+/*.right{*/
+/*    background-color: #F7ECDA;*/
+/*}*/
+
+.instructions__container{
+    display: flex;
+    justify-content: center;
+}
+
+.instructions__instruction{
     background-color: #F7ECDA;
-    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 50px 50px 0;
 }
 
-.left,.right{
-    font-size: 35px;
-    text-align: center;
+.instructions__left-instruction{
+    margin-right: 50px;
 }
 
-.instruction{
-    list-style: none;
-    font-size: 30px;
-    padding-inline-start: 0;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-.instruction li{
-    margin-bottom: 15px;
-}
-
-.right{
-    background-color: #F7ECDA;
-}
-
-.size{
+.size__container{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.size p{
-    width: 590px;
-    font-size: 30px;
-    margin-top: 0;
+.size__text{
+    max-width: 747px;
+    margin-bottom: 50px;
+    line-height: 45px;
 }
 
-table.iksweb{
+.size__table{
     border-collapse: collapse;
     text-align: center;
     cursor: default;
 }
-table.iksweb th{
-    color: #ffffff;
-    background-color: #000000;
-}
-table.iksweb td{
-    font-size: 25px;
-    color:#000000;
-}
-table.iksweb td,table.iksweb th{
+
+.table__column{
     padding: 20px 15px;
     line-height: 13px;
     vertical-align: middle;
     border: 2px solid #000000;
+    font-size: 25px;
+    color:#000000;
 }

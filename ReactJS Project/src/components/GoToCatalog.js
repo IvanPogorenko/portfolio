@@ -5,15 +5,18 @@ import { Link } from 'react-router-dom';
 function GoToCatalog(){
     return(
         <>
-            <div className="catalogPath">
-                <p>С любовью и заботой к вам и вашей деятельности,</p>
-                <p>MOONPIE</p>
-            </div>
-            <div className='wrapper'>
-                <Link to='/catalog' className="catalogPath"><button className="catalogBtn">Перейти в каталог</button></Link>
-            </div>
+            <section className="catalog-path">
+                <div className="catalog-path__container">
+                    <div className="catalog-path__text-container">
+                        <div className="small-title catalog-path__text">
+                            С любовью и заботой к вам и вашей деятельности, MOONPIE
+                        </div>
+                    </div>
+                    <Link to='/catalog' className="nav_link"><button className="catalog-path__btn">Перейти в каталог</button></Link>
+                </div>
+            </section>
         </>
     );
-};
+}
 
 export default GoToCatalog;
