@@ -1,0 +1,37 @@
+.ItemCardContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.ItemCard{
+    width:900px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+}
+
+.PictureBlock img{
+    width: 120%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+    background-color: aliceblue;
+}
+
+.RadioGroup{
+    display: flex;
+    flex-direction: row;
+}
+
+.ProductImageContainer img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.InfoBlock{
+    margin-left: 120px;
+}

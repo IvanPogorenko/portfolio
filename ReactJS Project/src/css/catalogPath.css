@@ -1,0 +1,33 @@
+.catalog-path__container{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalog-path__text-container{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 50px;
+}
+
+.catalog-path__text{
+    max-width: 943px;
+    text-align: right;
+}
+
+.catalog-path__btn{
+    width: 360px;
+    height: 80px;
+    border: 3px solid black;
+    font-size: 25px;
+    border-radius: 15px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.catalog-path__btn:hover{
+    background-color: #727F90;
+    color: white;
+}

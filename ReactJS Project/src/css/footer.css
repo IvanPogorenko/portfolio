@@ -1,0 +1,15 @@
+footer{
+    width: 100vW;
+    height: 259px;
+    background-color: #727F90;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+  }
+  
+  section p{
+    font-size: 20px;
+  }

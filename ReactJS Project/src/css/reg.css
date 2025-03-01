@@ -1,0 +1,70 @@
+.RegContainer{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.RegBlock{
+    padding: 20px;
+    width: 400px;
+    background-color: blanchedalmond;
+}
+
+.RegBlock h {
+    font-size: 25px;
+}
+
+.RegBlock label{
+    font-size: 18px;
+}
+
+.textBlock{
+    width: 250px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.FormFieldContainer{
+    margin-top: 20px;
+}
+
+.FormField{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.RegBtn{
+    width: 250px;
+    height: 50px;
+    background: transparent;
+    border-radius: 15px;
+    font-size: 17px;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ToAnotherAuth{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+
+.ToAnotherAuth div{
+    margin-left: 145px;
+}
+
+.ToReg{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+
+.ToReg div{
+    margin-left: 170px;
+}
