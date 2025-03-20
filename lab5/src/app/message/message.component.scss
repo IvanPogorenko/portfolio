@@ -1,0 +1,27 @@
+@import "variables";
+
+.message{
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: $third-color;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+
+  &__title{
+    margin-bottom: 10px;
+  }
+
+  &__text{
+    text-align: center;
+  }
+
+  &_error{
+    border: 2px solid red;
+  }
+
+  &_success{
+    border: 2px solid green;
+  }
+}

@@ -1,0 +1,148 @@
+@import "variables";
+
+.item-info{
+  background-color: rgba(0, 0, 0, 0.60);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  overflow-y: auto;
+
+  &__container{
+    background-color: $main-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+  }
+
+  &__image{
+    max-width: 282px;
+    margin-right: 20px;
+  }
+
+  &__img{
+    max-width: 100%;
+  }
+
+  &__information{
+    display: flex;
+    align-items: center;
+  }
+
+  &__header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  &__name{
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  &__close{
+    margin-left: auto;
+  }
+
+  &__header-image{
+    width: 34px;
+  }
+
+  &__text{
+    text-align: center;
+    max-width: 450px;
+    margin-top: 25px;
+  }
+
+  &__fields{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+
+  &__price{
+    margin-top: 10px;
+  }
+
+  &__input{
+    margin-left: 5px;
+    max-width: 80px;
+  }
+
+  &__ingredients{
+    display: flex;
+    flex-wrap: wrap;
+    width: 280px;
+  }
+
+  &__ingredient{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+
+  &__ingredient-text{
+    margin-left: 5px;
+  }
+
+  &__counter{
+    margin-top: 30px;
+  }
+
+  &__action{
+    margin-top: 40px;
+  }
+
+  &__btn{
+    padding: 6px 25px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .item-info{
+
+    &__header{
+      margin-bottom: 20px;
+    }
+
+    &__information{
+      flex-direction: column;
+    }
+
+    &__fields{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__ingredients{
+      width: 100%;
+    }
+
+    &__form{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__image{
+      margin-right: 0;
+    }
+
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .item-info{
+
+    &__container{
+      padding: 230px 20px 80px 20px;
+    }
+
+  }
+}

@@ -1,0 +1,79 @@
+@import "variables";
+
+.order{
+  background-color: rgba(0, 0, 0, 0.60);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  &__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__form{
+    background-color: $main-color;
+    border-radius: 15px;
+    padding: 15px 20px 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__fields{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__close-btn{
+    align-self: flex-end;
+  }
+
+  &__close-img{
+    width: 34px;
+  }
+
+  &__bio-fields{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__input{
+    margin-top: 25px;
+  }
+
+  &__msg{
+    margin-top: 20px;
+  }
+
+  &__action{
+    margin-top: 40px;
+  }
+
+  &__btn{
+    padding: 10px 30px;
+  }
+}
+
+@media screen and (max-width: 767px){
+
+  .order{
+
+    &__bio-fields{
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__address-fields{
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+
+}

@@ -1,0 +1,61 @@
+.register-form {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__register-bio {
+    display: grid;
+    grid-template-columns: repeat(3, 270px);
+    gap: 30px;
+    margin-top: 40px;
+  }
+
+  &__register-address {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 270px);
+    gap: 30px;
+  }
+
+  &__register-action {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__btn {
+    padding: 10px 30px;
+    margin-bottom: 15px;
+  }
+
+  &__to-login{
+    color: #9F8F75;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .register-form{
+    padding: 0 10px;
+
+    &__register-bio{
+      grid-template-columns: 270px;
+    }
+
+    &__register-address{
+      grid-template-columns: 270px;
+    }
+  }
+}
+
+@media screen and (max-width: 420px){
+  .register-form{
+
+    &__btn{
+      font-size: 20px;
+    }
+
+  }
+}

@@ -1,0 +1,33 @@
+.login-form {
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__login-info{
+    display: grid;
+    grid-gap: 30px;
+    margin-top: 40px;
+  }
+
+  &__login-action {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__btn {
+    padding: 10px 30px;
+    margin-bottom: 15px;
+  }
+
+  &__to-register{
+    color: #9F8F75;
+    cursor: pointer;
+  }
+
+  &__error-msg{
+    margin-top: 20px;
+  }
+}

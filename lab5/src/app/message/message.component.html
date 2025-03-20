@@ -1,0 +1,7 @@
+<div class="message"
+     [class.message_error]="message.head === 'Неудачно!'"
+     [class.message_success]="message.head === 'Удачно'"
+>
+  <h3 class="text__sub-title message__title">{{message.head}}</h3>
+  <p class="text__sub-text message__text">{{message.text}}</p>
+</div>

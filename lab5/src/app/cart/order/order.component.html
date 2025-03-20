@@ -1,0 +1,44 @@
+<section class="order">
+  <div class="container order__container">
+    <form class="order__form" [formGroup]="form" (ngSubmit)="submitForm()">
+      <button type="button" class="order__close-btn" (click)="onCloseForm()">
+        <img src="assets/close.png" alt="close" class="order__close-img">
+      </button>
+      <div class="order__fields">
+        <h2 class="text__sub-title">Проверьте поля перед отправкой заказа</h2>
+        <div class="order__bio-fields">
+          <input class="input order__input" type="text" placeholder="name"
+                 [formControl]="form.controls.name"
+                 [class.input_error]="form.controls.name.invalid && form.controls.name.dirty"
+          >
+          <input class="input order__input" type="text" placeholder="phone"
+                 [formControl]="form.controls.phone"
+                 [class.input_error]="form.controls.phone.invalid && form.controls.phone.dirty"
+          >
+        </div>
+        <div class="order__address-fields" [formGroup]="formAddress">
+          <input class="input order__input" type="text" placeholder="street"
+                 [formControl]="formAddress.controls.street"
+                 [class.input_error]="formAddress.controls.street.invalid && formAddress.controls.street.dirty"
+          >
+          <input class="input order__input" type="text" placeholder="building"
+                 [formControl]="formAddress.controls.building"
+                 [class.input_error]="formAddress.controls.building.invalid && formAddress.controls.building.dirty"
+          >
+          <input class="input order__input" type="text" placeholder="apartment"
+                 [formControl]="formAddress.controls.apartment"
+                 [class.input_error]="formAddress.controls.apartment.invalid && formAddress.controls.apartment.dirty"
+          >
+        </div>
+        <input class="input order__input" type="text" placeholder="comment..." [formControl]="form.controls.comment">
+      </div>
+      <div class="msg_error order__msg" *ngIf="form.controls.phone.errors?.['pattern'] && form.controls.phone.dirty">Не корректный телефон, пример - 89999999999</div>
+      <div class="msg_error order__msg" *ngIf="form.controls.name.errors?.['required'] && form.controls.name.dirty">Укажите, как к вам обращаться</div>
+      <div class="msg_error order__msg" *ngIf="form.controls.phone.errors?.['required'] && form.controls.phone.dirty">Укажите телефон для связи</div>
+      <div class="msg_error order__msg" *ngIf="isAddressInvalid()">Адрес нужно заполнить полностью</div>
+      <div class="order__action">
+        <button class="btn order__btn" type="submit" [disabled]="form.invalid">Заказать</button>
+      </div>
+    </form>
+  </div>
+</section>

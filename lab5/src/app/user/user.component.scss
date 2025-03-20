@@ -1,0 +1,69 @@
+@import "variables";
+
+.user{
+  background-color: $main-color;
+  padding: 100px 30px;
+
+  &__bio{
+    display: flex;
+    align-items: center;
+  }
+
+  &__information{
+    margin-left: 30px;
+  }
+
+  &__about-user{
+    margin-bottom: 15px;
+  }
+
+  &__action{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  &__btn{
+    padding: 10px 30px;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+  }
+
+  &__orders{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 320px);
+    gap: 25px 15px;
+    justify-content: center;
+  }
+
+
+
+}
+
+@media screen and (max-width: 960px){
+
+  .user{
+    &__info{
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 770px){
+
+  .user{
+    &__bio{
+      flex-direction: column;
+    }
+
+    &__information{
+      margin-top: 30px;
+    }
+
+    &__container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

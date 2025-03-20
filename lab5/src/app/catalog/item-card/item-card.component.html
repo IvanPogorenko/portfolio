@@ -1,0 +1,13 @@
+<div class="card">
+  <div class="card__image">
+    <img class="card__img" src='{{data.img}}' alt="pizza">
+  </div>
+  <div class="card__info">
+    <h2 class="card__name text__sub-title">{{data.name}}</h2>
+    <p class="text__sub-text card__information">{{data.description}}</p>
+  </div>
+  <div class="card__action">
+    <p class="text__sub-text">{{ firstPrice }}</p>
+    <button class="btn card__btn" type="button" (click)="navigateToItemInfo()">Выбрать</button>
+  </div>
+</div>
