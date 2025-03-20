@@ -1,0 +1,46 @@
+.card{
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+
+  &__information{
+    display: flex;
+  }
+
+  &__image{
+    width: 250px;
+  }
+
+  &__img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    max-height: 240px;
+  }
+
+  &__info{
+    margin-left: 20px;
+  }
+
+  &__action{
+    width: 42px;
+    align-self: flex-start;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .card{
+
+    &__information{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__info{
+      margin-left: 0;
+      margin-top: 15px;
+    }
+
+  }
+}

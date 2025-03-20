@@ -1,0 +1,18 @@
+<form class="login-form" [formGroup]="form" (ngSubmit)="submitForm()">
+  <h2 class="text__title">Авторизация</h2>
+  <div class="login-form__login-info">
+    <input type="text" class="input" placeholder="phone"
+           [class.input_error]="form.controls.phone.errors?.['pattern'] && form.controls.phone.dirty"
+           [formControl]="form.controls.phone">
+    <input type="text" class="input" placeholder="password"
+           [class.input_error]="form.controls.password.errors?.['minlength'] && form.controls.password.dirty"
+           [formControl]="form.controls.password">
+  </div>
+  <div class="msg_error login-form__error-msg" *ngIf="form.controls.phone.errors?.['pattern'] && form.controls.phone.dirty">Не корректный номер, пример - 89999999999</div>
+  <div class="msg_error login-form__error-msg" *ngIf="form.controls.password.errors?.['minlength'] && form.controls.password.dirty">Минимальная длина пароля - 6</div>
+  <div class="msg_error login-form__error-msg" *ngIf="form.errors?.['incorrectData']">Неверный телефон или пароль</div>
+  <div class="login-form__login-action">
+    <button class="btn login-form__btn" type="submit" [disabled]="form.invalid">Войти</button>
+    <p class="text__sub-text login-form__to-register" (click)="onSwitchToRegister()">Зарегистрироваться</p>
+  </div>
+</form>

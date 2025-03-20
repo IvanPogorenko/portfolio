@@ -1,0 +1,20 @@
+<div class="card">
+  <div class="card__information">
+    <div class="card__image">
+      <img src="{{data.img}}" alt="pizza" class="card__img">
+    </div>
+    <div class="card__info">
+      <h3 class="text__sub-title card__name">{{data.name}}</h3>
+      <p class="text__sub-text card__price">Цена за один: {{calcPricePerCount()}}</p>
+      <p class="text__sub-text card__diameter">Диаметр: {{data.diameter}}</p>
+      <p class="card__count text__sub-text">Количество: {{data.count}}</p>
+      <!--    <div class="card__additional" *ngIf="additionalIngredients.length !==0">-->
+      <!--      <p class="card__count text__sub-text">Дополнительно: </p>-->
+      <!--      <p class="card__count text__sub-text" *ngFor="let ingredient of additionalIngredients; index as i">{{i+1}}. {{ingredient.name}}</p>-->
+      <!--    </div>-->
+    </div>
+  </div>
+  <div class="card__action">
+    <button type="button" (click)="deleteItem()"><img src="assets/cart/bin.png" alt="bin"></button>
+  </div>
+</div>

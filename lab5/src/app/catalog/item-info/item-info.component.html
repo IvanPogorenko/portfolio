@@ -1,0 +1,54 @@
+<div class="item-info">
+  <div class="container item-info__container">
+    <div class="item-info__header">
+      <h2 class="text__sub-title item-info__name">{{ pizza ? pizza.name : 'error' }}</h2>
+      <button type="button" class="item-info__close" (click)="onCloseForm()">
+        <img src="assets/close.png" alt="close" class="item-info__header-image">
+      </button>
+    </div>
+    <div class="item-info__information">
+      <div class="item-info__image">
+        <img src="{{pizza?.img}}" alt="pizza" class="item-info__img">
+      </div>
+      <form class="item-info__form" (ngSubmit)="submitForm()">
+        <p class="text item-info__text">Вы можете добавить или убрать ингридиент</p>
+        <div class="item-info__fields">
+          <div class="item-info__size-price">
+            <div class="item-info__size">
+              <label class="text__sub-text">Размер:</label>
+              <select
+                class="input-checkbox item-info__input"
+                name="size"
+                [(ngModel)]="selectedSize"
+                (change)="onPizzaPriceChange()"
+              >
+                <option *ngFor="let size of pizzaDiameters">{{size}}</option>
+              </select>
+            </div>
+            <div class="item-info__price">
+              <label class="text__sub-text">Цена:</label>
+              <input class="input item-info__input" name="price" [value]="pizzaPrice" disabled>
+            </div>
+          </div>
+          <div class="item-info__ingredients">
+            <div class="item-info__ingredient" *ngFor="let ingredient of ingredients">
+              <input class="input" type="checkbox"
+                     [checked]="isIngredientChecked(ingredient)"
+                     (change)="onIngredientChange(ingredient)"
+              >
+              <label class="item-info__ingredient-text">{{ingredient.name}} {{ingredient.price}}p.</label>
+            </div>
+          </div>
+        </div>
+        <div class="counter item-info__counter">
+          <button class="counter__btn counter__btn_minus" type="button" (click)="onChangeCount('minus')">-</button>
+          <input type="number" class="counter__input" [value]="count" disabled>
+          <button class="counter__btn counter__btn_plus" type="button" (click)="onChangeCount('plus')">+</button>
+        </div>
+        <div class="item-info__action">
+          <button class="btn item-info__btn" type="submit">Подтвердить</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

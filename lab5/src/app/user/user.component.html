@@ -1,0 +1,38 @@
+
+
+<section class="user">
+  <div class="container user__container">
+    @if (userId === ''){
+      @if (isLogin){
+        <app-login (switchToRegister)="toggleMode()"></app-login>
+      } @else {
+        <app-register (switchToLogin)="toggleMode()" ></app-register>
+      }
+    } @else {
+      <div class="user__bio">
+        <div class="user__image">
+          <img src="assets/catalog/item.jpg" alt="user" class="user__img">
+        </div>
+        <div class="user__information">
+          <p class="text user__about-user">Имя: <span class="user__info">{{user?.name}} {{user?.surname}}</span></p>
+          <p class="text user__about-user">Телефон: <span class="user__info">{{user?.phone}}</span></p>
+          <p class="text user__about-user">Адрес доставки: <span class="user__info">{{user?.address?.street}} {{user?.address?.building}} {{user?.address?.apartment}}</span></p>
+        </div>
+      </div>
+      <div class="user__action">
+        <button class="btn user__btn" type="button" (click)="logOut()">
+          Выйти
+        </button>
+      </div>
+      <h2 class="text__title">Ваши заказы:</h2>
+      <div class="user__orders">
+        @if (history?.length !== 0){
+          <app-history-card *ngFor=" let order of history" [order]="order"></app-history-card>
+        } @else {
+          <p class="text">У вас пока нет заказов</p>
+        }
+      </div>
+    }
+  </div>
+</section>
+

@@ -1,0 +1,30 @@
+<app-message *ngIf="showMessage && message" [message]="message"></app-message>
+
+<section class="cart">
+  <div class="container cart__container">
+    @if (cart?.items?.length !== 0){
+      <div class="cart__cards">
+        <app-cart-card *ngFor=" let cartItem of cart?.items" [data]="cartItem"></app-cart-card>
+      </div>
+      <div class="cart__resume">
+        <h3 class="text__sub-title">Итого</h3>
+        <div class="cart__products-price" *ngFor=" let cartItem of cart?.items">
+          <p class="cart__name text__sub-text">{{cartItem.name}}</p>
+          <p class="cart__count text__sub-text">x{{cartItem.count}}</p>
+          <p class="cart__price text__sub-text">{{cartItem.price}}</p>
+        </div>
+        <div class="cart__action">
+          <p class="cart__total text__sub-text">Цена: {{cart?.totalPrice}}</p>
+          <button
+            class="btn cart__btn"
+            [routerLink]="appRoutes.cart.order">Заказать</button>
+        </div>
+      </div>
+    } @else {
+      <h1 class="text__main">Ваша корзина пока что пуста</h1>
+    }
+  </div>
+</section>
+
+
+<router-outlet></router-outlet>

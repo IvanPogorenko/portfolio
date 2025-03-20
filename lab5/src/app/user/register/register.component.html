@@ -1,0 +1,29 @@
+<form class="register-form" [formGroup]="form" (ngSubmit)="submitForm()">
+  <h2 class="text__title">Регистрация</h2>
+  <div class="register-form__register-bio">
+    <input type="text" class="input" placeholder="name" [formControl]="form.controls.name">
+    <input type="text" class="input" placeholder="surname" [formControl]="form.controls.surname">
+    <input type="text" class="input" placeholder="phone"
+           [class.input_error]="form.controls.phone.errors?.['pattern'] && form.controls.phone.dirty"
+           [formControl]="form.controls.phone">
+    <input type="text" class="input" placeholder="password"
+           [class.input_error]="form.controls.password.errors?.['minlength'] && form.controls.password.dirty"
+           [formControl]="form.controls.password">
+    <input type="text" class="input" placeholder="repeat password"
+           [class.input_error]="form.errors?.['anotherPassword'] && form.get('passwordAgain')?.touched"
+           [formControl]="form.controls.passwordAgain">
+    <div class="msg_error login-form__error-msg" *ngIf="form.errors?.['anotherPassword'] && form.get('passwordAgain')?.touched">Пароли должны совпадать</div>
+    <div class="msg_error login-form__error-msg" *ngIf="form.controls.password.errors?.['minlength'] && form.controls.password.dirty">Минимальная длина пароля - 6</div>
+    <div class="msg_error login-form__error-msg" *ngIf="form.controls.phone.errors?.['pattern'] && form.controls.phone.dirty">Не корректный пароль, пример - 89999999999</div>
+    <div class="msg_error login-form__error-msg" *ngIf="form.controls.phone.errors?.['userExists']">Пользователь с таким номером уже есть</div>
+  </div>
+  <div class="register-form__register-address" [formGroup]="formAddress">
+    <input type="text" class="input" placeholder="street" [formControl]="formAddress.controls.street">
+    <input type="text" class="input" placeholder="building" [formControl]="formAddress.controls.building">
+    <input type="text" class="input" placeholder="apartment" [formControl]="formAddress.controls.apartment">
+  </div>
+  <div class="register-form__register-action">
+    <button class="btn register-form__btn" type="submit" [disabled]="form.invalid">Зарегистрироваться</button>
+    <p class="text__sub-text register-form__to-login" (click)="onSwitchToLogin()">Уже есть аккаунт</p>
+  </div>
+</form>

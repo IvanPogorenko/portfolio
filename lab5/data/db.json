@@ -1,0 +1,1088 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "qwe",
+      "surname": "qwe",
+      "phone": "89999999999",
+      "password": "qweqwe",
+      "address": {
+        "street": "street",
+        "building": "building",
+        "apartment": "apartment"
+      }
+    },
+    {
+      "id": 2,
+      "name": "qwe",
+      "surname": "qwe",
+      "phone": "89999999991",
+      "password": "qweqwe",
+      "address": {
+        "street": "",
+        "building": "",
+        "apartment": ""
+      }
+    },
+    {
+      "id": 3,
+      "name": "qwe",
+      "surname": "qwe",
+      "phone": "89999999992",
+      "password": "qweqwe",
+      "address": {
+        "street": "",
+        "building": "",
+        "apartment": ""
+      }
+    },
+    {
+      "id": 4,
+      "name": "qwe",
+      "surname": "qwe",
+      "phone": "89999999993",
+      "password": "qweqwe",
+      "address": {
+        "street": "",
+        "building": "",
+        "apartment": ""
+      }
+    },
+    {
+      "id": 5,
+      "name": "qwe",
+      "surname": "qwe",
+      "phone": "87777777777",
+      "password": "qweqwe",
+      "address": {
+        "street": "",
+        "building": "",
+        "apartment": ""
+      }
+    }
+  ],
+  "pizzas": [
+    {
+      "id": 1,
+      "name": "Маргарита",
+      "price": [
+        350,
+        395,
+        430
+      ],
+      "ingredients": [
+        {
+          "name": "Томатный соус",
+          "price": 50,
+          "grams": 100,
+          "counts": 1,
+          "img": "https://example.com/images/tomatoes.png"
+        },
+        {
+          "name": "Моцарелла",
+          "price": 100,
+          "grams": 150,
+          "counts": 1,
+          "img": "https://example.com/images/tomatoes.png"
+        },
+        {
+          "name": "Базилик",
+          "price": 30,
+          "grams": 10,
+          "counts": 12,
+          "img": "https://example.com/images/tomatoes.png"
+        },
+        {
+          "name": "Помидоры",
+          "price": 50,
+          "grams": 100,
+          "counts": 12,
+          "img": "https://example.com/images/tomatoes.png"
+        }
+      ],
+      "description": "Классическая пицца с томатным соусом, моцареллой и базиликом.",
+      "diameter": [
+        25,
+        30,
+        35
+      ],
+      "img": "https://1.downloader.disk.yandex.ru/preview/b743a81793dfe9fed108a10fea343c49ebafb9deeba72480e39a2d04ec16994a/inf/gzp_p82_OIb3t3iUc-r96VpSa5xsuL-_x5itK8r3gj1ZXb__c-8DAE9KBXkNKV2Z1nwwjiel13CWrGwnrvA8OA%3D%3D?uid=1405807076&filename=Margherita%20Pizza.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v2&size=2560x1237"
+    },
+    {
+      "id": 2,
+      "name": "Пепперони",
+      "price": [
+        450,
+        480,
+        510
+      ],
+      "ingredients": [
+        {
+          "name": "Томатный соус",
+          "price": 50,
+          "grams": 100,
+          "counts": 1,
+          "img": "https://example.com/images/tomatoes.png"
+        },
+        {
+          "name": "Моцарелла",
+          "price": 100,
+          "grams": 150,
+          "counts": 1,
+          "img": "https://example.com/images/tomatoes.png"
+        },
+        {
+          "name": "Пепперони",
+          "price": 150,
+          "grams": 100,
+          "counts": 12,
+          "img": "https://example.com/images/tomatoes.png"
+        }
+      ],
+      "description": "Пицца с томатным соусом, моцареллой и пикантными ломтиками пепперони.",
+      "diameter": [
+        25,
+        30,
+        35
+      ],
+      "img": "https://3.downloader.disk.yandex.ru/preview/28b0f64776ef3e50ac3e6d140ae7b71a0e71aac816306b94caa63f7a3f627842/inf/zq_msPRk8-VeQPSWOuGiq8bwZbImpeNR5iki0hnFQ9rI3mRFvY5VmMXLx9D0pt1vGTgRetYJ4ysBAmJuv_Nj8w%3D%3D?uid=1405807076&filename=%D0%9F%D0%B5%D0%BF%D0%BF%D0%B5%D1%80%D0%BE%D0%BD%D0%B8.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v2&size=2560x1237"
+    },
+    {
+      "id": 3,
+      "name": "Четыре сыра",
+      "price": [
+        410,
+        440,
+        480
+      ],
+      "ingredients": [
+        {
+          "name": "Томатный соус",
+          "price": 50,
+          "grams": 100,
+          "counts": 1,
+          "img": "https://example.com/images/tomatoes.png"
+        },
+        {
+          "name": "Моцарелла",
+          "price": 100,
+          "grams": 150,
+          "counts": 1,
+          "img": "https://example.com/images/tomatoes.png"
+        },
+        {
+          "name": "Горгонзола",
+          "price": 200,
+          "grams": 70,
+          "counts": 12,
+          "img": "https://example.com/images/tomatoes.png"
+        }
+      ],
+      "description": "Пицца с моцареллой, пармезаном, горгонзолой и рикоттой.",
+      "diameter": [
+        25,
+        30,
+        35
+      ],
+      "img": "https://3.downloader.disk.yandex.ru/preview/f7d81c8fdca0f4b75ab3b84c5aa5514c3a4b6dbe2081498df256224cd15f4dbe/inf/0ePVhVjHEpcTzFujpUyCiHEBOWM9O-sLGxGyvxr0W0Lty94NLRGQ7TvaNJaopJsscEJJZUO57TgR7Qj0SIgAEg%3D%3D?uid=1405807076&filename=%D0%A7%D0%B5%D1%82%D1%8B%D1%80%D0%B5%20%D1%81%D1%8B%D1%80%D0%B0.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v2&size=2560x1237"
+    },
+    {
+      "id": 4,
+      "name": "Гавайи",
+      "price": [
+        460,
+        500,
+        540
+      ],
+      "ingredients": [
+        {
+          "name": "Томатный соус",
+          "price": 50,
+          "grams": 100,
+          "counts": 1,
+          "img": "https://example.com/images/tomatoes.png"
+        },
+        {
+          "name": "Моцарелла",
+          "price": 100,
+          "grams": 150,
+          "counts": 1,
+          "img": "https://example.com/images/tomatoes.png"
+        },
+        {
+          "name": "Ветчина",
+          "price": 160,
+          "grams": 120,
+          "counts": 12,
+          "img": "https://example.com/images/tomatoes.png"
+        },
+        {
+          "name": "Ананасы",
+          "price": 70,
+          "grams": 100,
+          "counts": 12,
+          "img": "https://example.com/images/tomatoes.png"
+        }
+      ],
+      "description": "Пицца с томатным соусом, моцареллой, ветчиной и ананасами.",
+      "diameter": [
+        25,
+        30,
+        35
+      ],
+      "img": "https://2.downloader.disk.yandex.ru/preview/4fa11e7656a6763e6532959e5f33fc08206a03b0ff3c990a6cd5548bdd8800b1/inf/wiAAmjQDDT4Z-izxRHjGqFWKKkeesawYnZ8aNAL8r08YVHeFghy_IqOWuXuUPd9Gh5C3blXZ4luEn5xXfoEVng%3D%3D?uid=1405807076&filename=%D0%93%D0%B0%D0%B2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v2&size=2560x1237"
+    },
+    {
+      "id": 5,
+      "name": "Вегетарианская",
+      "price": [
+        390,
+        450,
+        480
+      ],
+      "ingredients": [
+        {
+          "name": "Томатный соус",
+          "price": 50,
+          "grams": 100,
+          "counts": 1,
+          "img": "https://example.com/images/tomatoes.png"
+        },
+        {
+          "name": "Моцарелла",
+          "price": 100,
+          "grams": 150,
+          "counts": 1,
+          "img": "https://example.com/images/tomatoes.png"
+        },
+        {
+          "name": "Оливки",
+          "price": 90,
+          "grams": 80,
+          "counts": 12,
+          "img": "https://example.com/images/tomatoes.png"
+        },
+        {
+          "name": "Помидоры",
+          "price": 50,
+          "grams": 100,
+          "counts": 12,
+          "img": "https://example.com/images/tomatoes.png"
+        },
+        {
+          "name": "Грибы",
+          "price": 60,
+          "grams": 100,
+          "counts": 12,
+          "img": "https://example.com/images/tomatoes.png"
+        },
+        {
+          "name": "Перец",
+          "price": 40,
+          "grams": 80,
+          "counts": 12,
+          "img": "https://example.com/images/tomatoes.png"
+        }
+      ],
+      "description": "Пицца с томатным соусом, моцареллой, оливками, помидорами, грибами и перцем.",
+      "diameter": [
+        25,
+        30,
+        35
+      ],
+      "img": "https://4.downloader.disk.yandex.ru/preview/1e5ce017e037c26e0a529fd3a132b9689a2af6e7be19bfaf67a9a68f023ec621/inf/uw8qTwRORxf5wFtYWA-rZiwDmPyIzv0dPvJH0jYSr6BiJ13ti6cDpEayXxhFRb_uABuiEwpNfwpTnCkd_tezAw%3D%3D?uid=1405807076&filename=%D0%B2%D0%B5%D0%B3%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v2&size=2560x1237"
+    },
+    {
+      "id": 6,
+      "name": "Мясная",
+      "price": [
+        420,
+        480,
+        530
+      ],
+      "ingredients": [
+        {
+          "name": "Томатный соус",
+          "price": 50,
+          "grams": 100,
+          "counts": 1,
+          "img": "https://example.com/images/tomatoes.png"
+        },
+        {
+          "name": "Моцарелла",
+          "price": 100,
+          "grams": 150,
+          "counts": 1,
+          "img": "https://example.com/images/tomatoes.png"
+        },
+        {
+          "name": "Бекон",
+          "price": 180,
+          "grams": 120,
+          "counts": 12,
+          "img": "https://example.com/images/tomatoes.png"
+        },
+        {
+          "name": "Говядина",
+          "price": 220,
+          "grams": 150,
+          "counts": 12,
+          "img": "https://example.com/images/tomatoes.png"
+        }
+      ],
+      "description": "Пицца с томатным соусом, моцареллой, беконом, колбасой и говядиной.",
+      "diameter": [
+        25,
+        30,
+        35
+      ],
+      "img": "https://2.downloader.disk.yandex.ru/preview/38dc8ba35498a356b9858cb3e75f47d48bfbc83f20c8922fb519dda4d23a20ef/inf/R86bmawLjnnPejrVqjXBjLH8OGmsFvEnPiedvQdaobXywUq4_pujXs07At8WdG4kFfzpeIDGWQJJ2U-YoEuWDg%3D%3D?uid=1405807076&filename=%D0%BC%D1%8F%D1%81%D0%BD%D0%B0%D1%8F.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v2&size=1920x945"
+    }
+  ],
+  "carts": [
+    {
+      "userId": 0,
+      "totalPrice": 350,
+      "items": [
+        {
+          "id": 1,
+          "name": "Маргарита",
+          "price": 350,
+          "ingredients": [
+            {
+              "name": "Томатный соус",
+              "price": 50,
+              "grams": 100,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Моцарелла",
+              "price": 100,
+              "grams": 150,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Базилик",
+              "price": 30,
+              "grams": 10,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Помидоры",
+              "price": 50,
+              "grams": 100,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            }
+          ],
+          "description": "Классическая пицца с томатным соусом, моцареллой и базиликом.",
+          "diameter": 25,
+          "count": 1,
+          "img": "https://1.downloader.disk.yandex.ru/preview/b743a81793dfe9fed108a10fea343c49ebafb9deeba72480e39a2d04ec16994a/inf/gzp_p82_OIb3t3iUc-r96VpSa5xsuL-_x5itK8r3gj1ZXb__c-8DAE9KBXkNKV2Z1nwwjiel13CWrGwnrvA8OA%3D%3D?uid=1405807076&filename=Margherita%20Pizza.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v2&size=2560x1237"
+        }
+      ]
+    },
+    {
+      "userId": 1,
+      "totalPrice": 0,
+      "items": []
+    }
+  ],
+  "orders": [
+    {
+      "userId": 0,
+      "info": {
+        "userName": "qwe",
+        "userPhone": "89999999999",
+        "address": {
+          "street": "street",
+          "building": "building",
+          "apartment": "apartment"
+        },
+        "comment": ""
+      },
+      "totalPrice": 2220,
+      "items": [
+        {
+          "id": 2,
+          "name": "Пепперони",
+          "price": 1440,
+          "ingredients": [
+            {
+              "name": "Томатный соус",
+              "price": 50,
+              "grams": 100,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Моцарелла",
+              "price": 100,
+              "grams": 150,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Пепперони",
+              "price": 150,
+              "grams": 100,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            }
+          ],
+          "description": "Пицца с томатным соусом, моцареллой и пикантными ломтиками пепперони.",
+          "diameter": 30,
+          "count": 3,
+          "img": "https://3.downloader.disk.yandex.ru/preview/28b0f64776ef3e50ac3e6d140ae7b71a0e71aac816306b94caa63f7a3f627842/inf/zq_msPRk8-VeQPSWOuGiq8bwZbImpeNR5iki0hnFQ9rI3mRFvY5VmMXLx9D0pt1vGTgRetYJ4ysBAmJuv_Nj8w%3D%3D?uid=1405807076&filename=%D0%9F%D0%B5%D0%BF%D0%BF%D0%B5%D1%80%D0%BE%D0%BD%D0%B8.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v2&size=2560x1237"
+        },
+        {
+          "id": 6,
+          "name": "Мясная",
+          "price": 780,
+          "ingredients": [
+            {
+              "name": "Томатный соус",
+              "price": 50,
+              "grams": 100,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Моцарелла",
+              "price": 100,
+              "grams": 150,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Бекон",
+              "price": 180,
+              "grams": 120,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Говядина",
+              "price": 220,
+              "grams": 150,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Артишоки",
+              "price": 100,
+              "grams": 80,
+              "counts": 12,
+              "img": "https://example.com/images/artichokes.png"
+            },
+            {
+              "name": "Курица",
+              "price": 200,
+              "grams": 150,
+              "counts": 12,
+              "img": "https://example.com/images/chicken.png"
+            }
+          ],
+          "description": "Пицца с томатным соусом, моцареллой, беконом, колбасой и говядиной.",
+          "diameter": 30,
+          "count": 1,
+          "img": "https://2.downloader.disk.yandex.ru/preview/38dc8ba35498a356b9858cb3e75f47d48bfbc83f20c8922fb519dda4d23a20ef/inf/R86bmawLjnnPejrVqjXBjLH8OGmsFvEnPiedvQdaobXywUq4_pujXs07At8WdG4kFfzpeIDGWQJJ2U-YoEuWDg%3D%3D?uid=1405807076&filename=%D0%BC%D1%8F%D1%81%D0%BD%D0%B0%D1%8F.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v2&size=1920x945"
+        }
+      ]
+    },
+    {
+      "userId": 0,
+      "info": {
+        "userName": "qwe",
+        "userPhone": "89999999999",
+        "address": {
+          "street": "street",
+          "building": "building",
+          "apartment": "apartment"
+        },
+        "comment": ""
+      },
+      "totalPrice": 960,
+      "items": [
+        {
+          "id": 3,
+          "name": "Четыре сыра",
+          "price": 510,
+          "ingredients": [
+            {
+              "name": "Томатный соус",
+              "price": 50,
+              "grams": 100,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Моцарелла",
+              "price": 100,
+              "grams": 150,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Горгонзола",
+              "price": 200,
+              "grams": 70,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Грибы",
+              "price": 60,
+              "grams": 100,
+              "counts": 12,
+              "img": "https://example.com/images/mushrooms.png"
+            },
+            {
+              "name": "Перец",
+              "price": 40,
+              "grams": 80,
+              "counts": 12,
+              "img": "https://example.com/images/pepper.png"
+            }
+          ],
+          "description": "Пицца с моцареллой, пармезаном, горгонзолой и рикоттой.",
+          "diameter": 25,
+          "count": 1,
+          "img": "https://3.downloader.disk.yandex.ru/preview/f7d81c8fdca0f4b75ab3b84c5aa5514c3a4b6dbe2081498df256224cd15f4dbe/inf/0ePVhVjHEpcTzFujpUyCiHEBOWM9O-sLGxGyvxr0W0Lty94NLRGQ7TvaNJaopJsscEJJZUO57TgR7Qj0SIgAEg%3D%3D?uid=1405807076&filename=%D0%A7%D0%B5%D1%82%D1%8B%D1%80%D0%B5%20%D1%81%D1%8B%D1%80%D0%B0.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v2&size=2560x1237"
+        },
+        {
+          "id": 2,
+          "name": "Пепперони",
+          "price": 450,
+          "ingredients": [
+            {
+              "name": "Томатный соус",
+              "price": 50,
+              "grams": 100,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Моцарелла",
+              "price": 100,
+              "grams": 150,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Пепперони",
+              "price": 150,
+              "grams": 100,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            }
+          ],
+          "description": "Пицца с томатным соусом, моцареллой и пикантными ломтиками пепперони.",
+          "diameter": 25,
+          "count": 1,
+          "img": "https://3.downloader.disk.yandex.ru/preview/28b0f64776ef3e50ac3e6d140ae7b71a0e71aac816306b94caa63f7a3f627842/inf/zq_msPRk8-VeQPSWOuGiq8bwZbImpeNR5iki0hnFQ9rI3mRFvY5VmMXLx9D0pt1vGTgRetYJ4ysBAmJuv_Nj8w%3D%3D?uid=1405807076&filename=%D0%9F%D0%B5%D0%BF%D0%BF%D0%B5%D1%80%D0%BE%D0%BD%D0%B8.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v2&size=2560x1237"
+        }
+      ]
+    },
+    {
+      "userId": 0,
+      "info": {
+        "userName": "qwe",
+        "userPhone": "89999999999",
+        "address": {
+          "street": "street",
+          "building": "building",
+          "apartment": "apartment"
+        },
+        "comment": ""
+      },
+      "totalPrice": 1650,
+      "items": [
+        {
+          "id": 4,
+          "name": "Гавайи",
+          "price": 1650,
+          "ingredients": [
+            {
+              "name": "Томатный соус",
+              "price": 50,
+              "grams": 100,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Моцарелла",
+              "price": 100,
+              "grams": 150,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Ветчина",
+              "price": 160,
+              "grams": 120,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Ананасы",
+              "price": 70,
+              "grams": 100,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Пепперони",
+              "price": 150,
+              "grams": 100,
+              "counts": 12,
+              "img": "https://example.com/images/pepperoni.png"
+            }
+          ],
+          "description": "Пицца с томатным соусом, моцареллой, ветчиной и ананасами.",
+          "diameter": 30,
+          "count": 3,
+          "img": "https://2.downloader.disk.yandex.ru/preview/4fa11e7656a6763e6532959e5f33fc08206a03b0ff3c990a6cd5548bdd8800b1/inf/wiAAmjQDDT4Z-izxRHjGqFWKKkeesawYnZ8aNAL8r08YVHeFghy_IqOWuXuUPd9Gh5C3blXZ4luEn5xXfoEVng%3D%3D?uid=1405807076&filename=%D0%93%D0%B0%D0%B2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v2&size=2560x1237"
+        }
+      ]
+    },
+    {
+      "userId": 1,
+      "info": {
+        "userName": "qwe",
+        "userPhone": "89999999999",
+        "address": {
+          "street": "street",
+          "building": "building",
+          "apartment": "apartment"
+        },
+        "comment": ""
+      },
+      "totalPrice": 2010,
+      "items": [
+        {
+          "id": 3,
+          "name": "Четыре сыра",
+          "price": 1500,
+          "ingredients": [
+            {
+              "name": "Томатный соус",
+              "price": 50,
+              "grams": 100,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Моцарелла",
+              "price": 100,
+              "grams": 150,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Горгонзола",
+              "price": 200,
+              "grams": 70,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Бекон",
+              "price": 180,
+              "grams": 120,
+              "counts": 12,
+              "img": "https://example.com/images/bacon.png"
+            }
+          ],
+          "description": "Пицца с моцареллой, пармезаном, горгонзолой и рикоттой.",
+          "diameter": 30,
+          "count": 3,
+          "img": "https://3.downloader.disk.yandex.ru/preview/f7d81c8fdca0f4b75ab3b84c5aa5514c3a4b6dbe2081498df256224cd15f4dbe/inf/0ePVhVjHEpcTzFujpUyCiHEBOWM9O-sLGxGyvxr0W0Lty94NLRGQ7TvaNJaopJsscEJJZUO57TgR7Qj0SIgAEg%3D%3D?uid=1405807076&filename=%D0%A7%D0%B5%D1%82%D1%8B%D1%80%D0%B5%20%D1%81%D1%8B%D1%80%D0%B0.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v2&size=2560x1237"
+        },
+        {
+          "id": 2,
+          "name": "Пепперони",
+          "price": 510,
+          "ingredients": [
+            {
+              "name": "Томатный соус",
+              "price": 50,
+              "grams": 100,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Моцарелла",
+              "price": 100,
+              "grams": 150,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Пепперони",
+              "price": 150,
+              "grams": 100,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            }
+          ],
+          "description": "Пицца с томатным соусом, моцареллой и пикантными ломтиками пепперони.",
+          "diameter": 35,
+          "count": 1,
+          "img": "https://3.downloader.disk.yandex.ru/preview/28b0f64776ef3e50ac3e6d140ae7b71a0e71aac816306b94caa63f7a3f627842/inf/zq_msPRk8-VeQPSWOuGiq8bwZbImpeNR5iki0hnFQ9rI3mRFvY5VmMXLx9D0pt1vGTgRetYJ4ysBAmJuv_Nj8w%3D%3D?uid=1405807076&filename=%D0%9F%D0%B5%D0%BF%D0%BF%D0%B5%D1%80%D0%BE%D0%BD%D0%B8.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v2&size=2560x1237"
+        }
+      ]
+    },
+    {
+      "userId": 1,
+      "info": {
+        "userName": "qwe",
+        "userPhone": "89999999999",
+        "address": {
+          "street": "street",
+          "building": "building",
+          "apartment": "apartment"
+        },
+        "comment": ""
+      },
+      "totalPrice": 450,
+      "items": [
+        {
+          "id": 2,
+          "name": "Пепперони",
+          "price": 450,
+          "ingredients": [
+            {
+              "name": "Томатный соус",
+              "price": 50,
+              "grams": 100,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Моцарелла",
+              "price": 100,
+              "grams": 150,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Пепперони",
+              "price": 150,
+              "grams": 100,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            }
+          ],
+          "description": "Пицца с томатным соусом, моцареллой и пикантными ломтиками пепперони.",
+          "diameter": 25,
+          "count": 1,
+          "img": "https://3.downloader.disk.yandex.ru/preview/28b0f64776ef3e50ac3e6d140ae7b71a0e71aac816306b94caa63f7a3f627842/inf/zq_msPRk8-VeQPSWOuGiq8bwZbImpeNR5iki0hnFQ9rI3mRFvY5VmMXLx9D0pt1vGTgRetYJ4ysBAmJuv_Nj8w%3D%3D?uid=1405807076&filename=%D0%9F%D0%B5%D0%BF%D0%BF%D0%B5%D1%80%D0%BE%D0%BD%D0%B8.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v2&size=2560x1237"
+        }
+      ]
+    },
+    {
+      "userId": 1,
+      "info": {
+        "userName": "qwe",
+        "userPhone": "89999999999",
+        "address": {
+          "street": "street",
+          "building": "building",
+          "apartment": "apartment"
+        },
+        "comment": ""
+      },
+      "totalPrice": 420,
+      "items": [
+        {
+          "id": 6,
+          "name": "Мясная",
+          "price": 420,
+          "ingredients": [
+            {
+              "name": "Томатный соус",
+              "price": 50,
+              "grams": 100,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Моцарелла",
+              "price": 100,
+              "grams": 150,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Бекон",
+              "price": 180,
+              "grams": 120,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Говядина",
+              "price": 220,
+              "grams": 150,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            }
+          ],
+          "description": "Пицца с томатным соусом, моцареллой, беконом, колбасой и говядиной.",
+          "diameter": 25,
+          "count": 1,
+          "img": "https://2.downloader.disk.yandex.ru/preview/38dc8ba35498a356b9858cb3e75f47d48bfbc83f20c8922fb519dda4d23a20ef/inf/R86bmawLjnnPejrVqjXBjLH8OGmsFvEnPiedvQdaobXywUq4_pujXs07At8WdG4kFfzpeIDGWQJJ2U-YoEuWDg%3D%3D?uid=1405807076&filename=%D0%BC%D1%8F%D1%81%D0%BD%D0%B0%D1%8F.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v2&size=1920x945"
+        }
+      ]
+    },
+    {
+      "userId": 1,
+      "info": {
+        "userName": "qwe",
+        "userPhone": "89999999999",
+        "address": {
+          "street": "street",
+          "building": "building",
+          "apartment": "apartment"
+        },
+        "comment": ""
+      },
+      "totalPrice": 390,
+      "items": [
+        {
+          "id": 5,
+          "name": "Вегетарианская",
+          "price": 390,
+          "ingredients": [
+            {
+              "name": "Томатный соус",
+              "price": 50,
+              "grams": 100,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Моцарелла",
+              "price": 100,
+              "grams": 150,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Оливки",
+              "price": 90,
+              "grams": 80,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Помидоры",
+              "price": 50,
+              "grams": 100,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Грибы",
+              "price": 60,
+              "grams": 100,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Перец",
+              "price": 40,
+              "grams": 80,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            }
+          ],
+          "description": "Пицца с томатным соусом, моцареллой, оливками, помидорами, грибами и перцем.",
+          "diameter": 25,
+          "count": 1,
+          "img": "https://4.downloader.disk.yandex.ru/preview/1e5ce017e037c26e0a529fd3a132b9689a2af6e7be19bfaf67a9a68f023ec621/inf/uw8qTwRORxf5wFtYWA-rZiwDmPyIzv0dPvJH0jYSr6BiJ13ti6cDpEayXxhFRb_uABuiEwpNfwpTnCkd_tezAw%3D%3D?uid=1405807076&filename=%D0%B2%D0%B5%D0%B3%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v2&size=2560x1237"
+        }
+      ]
+    },
+    {
+      "userId": 1,
+      "info": {
+        "userName": "qwe",
+        "userPhone": "89999999999",
+        "address": {
+          "street": "street",
+          "building": "building",
+          "apartment": "apartment"
+        },
+        "comment": ""
+      },
+      "totalPrice": 1790,
+      "items": [
+        {
+          "id": 3,
+          "name": "Четыре сыра",
+          "price": 1790,
+          "ingredients": [
+            {
+              "name": "Томатный соус",
+              "price": 50,
+              "grams": 100,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Моцарелла",
+              "price": 100,
+              "grams": 150,
+              "counts": 1,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Горгонзола",
+              "price": 200,
+              "grams": 70,
+              "counts": 12,
+              "img": "https://example.com/images/tomatoes.png"
+            },
+            {
+              "name": "Пепперони",
+              "price": 150,
+              "grams": 100,
+              "counts": 12,
+              "img": "https://example.com/images/pepperoni.png"
+            },
+            {
+              "name": "Курица",
+              "price": 200,
+              "grams": 150,
+              "counts": 12,
+              "img": "https://example.com/images/chicken.png"
+            }
+          ],
+          "description": "Пицца с моцареллой, пармезаном, горгонзолой и рикоттой.",
+          "diameter": 35,
+          "count": 3,
+          "img": "https://3.downloader.disk.yandex.ru/preview/f7d81c8fdca0f4b75ab3b84c5aa5514c3a4b6dbe2081498df256224cd15f4dbe/inf/0ePVhVjHEpcTzFujpUyCiHEBOWM9O-sLGxGyvxr0W0Lty94NLRGQ7TvaNJaopJsscEJJZUO57TgR7Qj0SIgAEg%3D%3D?uid=1405807076&filename=%D0%A7%D0%B5%D1%82%D1%8B%D1%80%D0%B5%20%D1%81%D1%8B%D1%80%D0%B0.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=1405807076&tknv=v2&size=2560x1237"
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "Томатный соус",
+      "price": 50,
+      "grams": 100,
+      "counts": 1,
+      "img": "https://example.com/images/tomato_sauce.png"
+    },
+    {
+      "name": "Моцарелла",
+      "price": 100,
+      "grams": 150,
+      "counts": 1,
+      "img": "https://example.com/images/mozzarella.png"
+    },
+    {
+      "name": "Базилик",
+      "price": 30,
+      "grams": 10,
+      "counts": 12,
+      "img": "https://example.com/images/basil.png"
+    },
+    {
+      "name": "Пепперони",
+      "price": 150,
+      "grams": 100,
+      "counts": 12,
+      "img": "https://example.com/images/pepperoni.png"
+    },
+    {
+      "name": "Горгонзола",
+      "price": 200,
+      "grams": 70,
+      "counts": 12,
+      "img": "https://example.com/images/gorgonzola.png"
+    },
+    {
+      "name": "Ветчина",
+      "price": 160,
+      "grams": 120,
+      "counts": 12,
+      "img": "https://example.com/images/ham.png"
+    },
+    {
+      "name": "Ананасы",
+      "price": 70,
+      "grams": 100,
+      "counts": 12,
+      "img": "https://example.com/images/pineapple.png"
+    },
+    {
+      "name": "Оливки",
+      "price": 90,
+      "grams": 80,
+      "counts": 12,
+      "img": "https://example.com/images/olives.png"
+    },
+    {
+      "name": "Помидоры",
+      "price": 50,
+      "grams": 100,
+      "counts": 12,
+      "img": "https://example.com/images/tomatoes.png"
+    },
+    {
+      "name": "Грибы",
+      "price": 60,
+      "grams": 100,
+      "counts": 12,
+      "img": "https://example.com/images/mushrooms.png"
+    },
+    {
+      "name": "Перец",
+      "price": 40,
+      "grams": 80,
+      "counts": 12,
+      "img": "https://example.com/images/pepper.png"
+    },
+    {
+      "name": "Бекон",
+      "price": 180,
+      "grams": 120,
+      "counts": 12,
+      "img": "https://example.com/images/bacon.png"
+    },
+    {
+      "name": "Говядина",
+      "price": 220,
+      "grams": 150,
+      "counts": 12,
+      "img": "https://example.com/images/beef.png"
+    },
+    {
+      "name": "Курица",
+      "price": 200,
+      "grams": 150,
+      "counts": 12,
+      "img": "https://example.com/images/chicken.png"
+    },
+    {
+      "name": "Лосось",
+      "price": 250,
+      "grams": 120,
+      "counts": 12,
+      "img": "https://example.com/images/salmon.png"
+    },
+    {
+      "name": "Артишоки",
+      "price": 100,
+      "grams": 80,
+      "counts": 12,
+      "img": "https://example.com/images/artichokes.png"
+    }
+  ]
+}

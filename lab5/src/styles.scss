@@ -1,0 +1,128 @@
+@import "variables";
+
+* {
+  font-family: Poppins, sans-serif;
+}
+
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.link{
+  cursor: pointer;
+}
+
+.text{
+  font-size: 24px;
+  font-weight: 400;
+
+  &__sub-text{
+    font-size: 20px;
+  }
+
+  &__title{
+    font-size: 32px;
+  }
+
+  &__sub-title{
+    font-size: 28px;
+  }
+
+  &__main{
+    font-size: 36px;
+    font-weight: 500;
+  }
+}
+
+.btn{
+  background-color: $btn-color;
+  color: $text-color-white;
+  font-size: 28px;
+  font-weight: 400;
+  border-radius: 20px;
+}
+
+.input{
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 8px 20px;
+
+  &_error{
+    border: 2px solid red;
+  }
+}
+
+.input-checkbox{
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: fit-content;
+  border: 2px solid gray;
+
+  &__btn{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 50px;
+
+    &_minus{
+      border-right: 2px solid gray;
+    }
+
+    &_plus{
+      border-left: 2px solid gray;
+    }
+  }
+
+  &__input{
+    max-width: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+}
+
+.msg{
+
+  max-width: 280px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 10px;
+
+  &_error{
+    border: 2px solid red;
+  }
+}
+
+@media screen and (max-width: 425px){
+
+  .text{
+    font-size: 20px;
+    font-weight: 400;
+
+    &__sub-text{
+      font-size: 16px;
+    }
+
+    &__title{
+      font-size: 28px;
+    }
+
+    &__sub-title{
+      font-size: 24px;
+    }
+
+    &__main{
+      font-size: 32px;
+      font-weight: 500;
+    }
+  }
+
+}

@@ -1,0 +1,39 @@
+
+<app-message *ngIf="showMessage && message" [message]="message"></app-message>
+
+<section class="cards">
+  <div class="container cards__container">
+    <app-item-card *ngFor=" let pizza of pizzas" [data]="pizza"></app-item-card>
+  </div>
+</section>
+
+<section class="about-constructor">
+  <div class="container about-constructor__container">
+    <div class="about-constructor__images">
+      <div class="about-constructor__image">
+        <img src="assets/catalog/constructor1.jpg" alt="constructor" class="about-constructor__img">
+      </div>
+      <div class="about-constructor__image">
+        <img src="assets/catalog/constructor1.jpg" alt="constructor" class="about-constructor__img">
+      </div>
+      <div class="about-constructor__image">
+        <img src="assets/catalog/constructor1.jpg" alt="constructor" class="about-constructor__img">
+      </div>
+    </div>
+    <div class="about-constructor__info">
+      <p class="text about-constructor__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor
+        augue dui, quis faucibus eros luctus sed. Fusce eget arcu et nulla dignissim dapibus. Maecenas cursus nunc
+        justo, vel dignissim dolor egestas quis. Donec placerat felis a dolor varius commodo.</p>
+      <div class="about-constructor__action">
+        <button
+          class="btn about-constructor__btn"
+          [routerLink]="appRoutes.constructor"
+        >
+          Попробовать
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<router-outlet></router-outlet>

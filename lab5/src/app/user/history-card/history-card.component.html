@@ -1,0 +1,18 @@
+<div class="order order__card">
+  <p class="text" *ngFor="let item of order.items">{{item.name}}</p>
+  <p class="text">{{order.totalPrice}} р.</p>
+  <button type="button" class="order__btn" (click)="toggleExpanded()">
+    <img src="assets/show-more.png" alt="show-more" [class.order__img_reverse]="isExpanded">
+  </button>
+
+  <div *ngIf="isExpanded" class="order__additional-info" [class.expanded]="isExpanded">
+    <div class="order__item-info" *ngFor="let item of order.items; index as i">
+      <p class="text__sub-text">{{i+1}}. {{item.name}}, {{item.diameter}} см, x{{item.count}}</p>
+      <p class="text__sub-text">{{item.price}} p.</p>
+<!--      <div class="order__additional-ingredients" *ngIf="checkAdditionalIngredients(item)">-->
+<!--        <p class="text__sub-text">Добавки:</p>-->
+<!--        <p class="text__sub-text" *ngFor="let ingredient of additionalIngredients">{{ingredient.name}}</p>-->
+<!--      </div>-->
+    </div>
+  </div>
+</div>

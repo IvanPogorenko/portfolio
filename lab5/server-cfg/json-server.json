@@ -1,0 +1,7 @@
+{
+  "port": 3003,
+  "server": {
+    "baseDir": "src",
+    "index": "index.html"
+  }
+}
